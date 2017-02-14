@@ -1,0 +1,14 @@
+/// Pull the pen down -- drawing when moving.
+pub fn down() {
+  stdout.writeln("pd");
+}
+
+/// Pull the pen up -- no drawing when moving.
+pub fn up() {
+  stdout.writeln("pu");
+}
+
+/// Set the line thickness to width
+pub fn size(width: u32) {
+  stdout.writeln("setpw ", width);
+}

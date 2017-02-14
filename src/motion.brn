@@ -1,0 +1,46 @@
+/// Move the turtle forward by the specified distance, in the direction the turtle is headed.
+pub fn forward(distance: i32) {
+  stdout.writeln("fd ", distance);
+}
+
+/// Move the turtle backward by distance, opposite to the direction the turtle is headed. Do not
+/// change the turtle's heading.
+pub fn backward(distance: i32) {
+  stdout.writeln("bk ", distance);
+}
+
+/// Turn turtle right by angle units.
+pub fn right(angle: i32) {
+  stdout.writeln("rt ", angle);
+}
+
+/// Turn turtle left by angle units.
+pub fn left(angle: i32) {
+  stdout.writeln("lt ", angle);
+}
+
+/// Move turtle to an absolute position. If the pen is down, draw line. Do not change the turtle's
+/// orientation.
+pub fn set_pos(x: i32, y: i32) {
+  stdout.writeln("goto ", x, " ", y);
+}
+
+/// Set the turtle's first coordinate to x, leave second coordinate unchanged.
+pub fn set_x(x: i32) {
+  stdout.writeln("setx ", x);
+}
+
+/// Set the turtle's second coordinate to y, leave first coordinate unchanged.
+pub fn set_y(y: i32) {
+  stdout.writeln("sety ", y);
+}
+
+/// Set the orientation of the turtle to angle.
+pub fn set_heading(angle: i32) {
+  stdout.writeln("seth ", angle);
+}
+
+/// Move turtle to the origin -- coordinates (0,0) -- and set its heading to its start-orientation.
+pub fn home() {
+  stdout.writeln("home");
+}

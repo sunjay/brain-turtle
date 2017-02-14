@@ -1,0 +1,4 @@
+/// Draw a circle with given radius.
+fn circle(radius: u32, steps: i32) {
+    //TODO
+}

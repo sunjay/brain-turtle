@@ -1,0 +1,8 @@
+mod motion;
+
+// Exposed as just modules since these are less often used and more sensible to access this way
+pub mod screen;
+pub mod shapes;
+pub mod pen;
+
+pub use motion::*;

@@ -1,0 +1,10 @@
+[package]
+name = "turtle"
+version = "0.0.1"
+authors = ["Sunjay Varma <varma.sunjay@gmail.com>"]
+description = "Library for generating turtle graphics commands with brain"
+repository = "https://github.com/brain-lang/brain-turtle"
+readme = "README.md"
+keywords = ["graphics", "turtle", "drawing"]
+categories = ["graphics"]
+license = "MIT"

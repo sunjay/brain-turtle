@@ -1,0 +1,11 @@
+/// Delete the turtle's drawings from the screen, re-center the turtle and set variables to the
+/// default values.
+pub fn reset() {
+  stdout.writeln("reset");
+}
+
+/// Delete the turtle's drawings from the screen. Do not move turtle. State and position of the
+/// turtle as well as drawings of other turtles are not affected.
+pub fn clear() {
+  stdout.writeln("clear");
+}
