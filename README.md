@@ -29,6 +29,8 @@ how yet.
       because we don't have a very sophisticated IO model. Maybe with a good,
       buffered IO library we could support parsing. This means that we would
       have to wait for the allocator to get implemented.
+- [ ] Unit tests
+    - This will require a unit testing framework to be built.
 
 ## Far Future Enhancements
 
